@@ -1,0 +1,15 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Routes from './routes/Routes';
+import { registerLicense } from '@syncfusion/ej2-base';
+
+registerLicense('Mgo+DSMBaFt/QHRqVVhjVFpFdEBBXHxAd1p/VWJYdVt5flBPcDwsT3RfQF9iS3xbd0diWn9YcnVSQA==;Mgo+DSMBPh8sVXJ0S0J+XE9HflRDX3xKf0x/TGpQb19xflBPallYVBYiSV9jS3xSdEdrWH1fc3RTRGNdVw==;ORg4AjUWIQA/Gnt2VVhkQlFadVdJXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxRd0dhUX5ccXdVQGJYV0I=;ODMyMjE3QDMyMzAyZTM0MmUzMG51OHZRY0I1SFBFaDZTQkxITCtwQTFuQmNnVVVycHFZOFlCaWZPenVkblE9;ODMyMjE4QDMyMzAyZTM0MmUzMFNoTDhUcmczOG5ZNHJTeU5mOFBtaENWUDlGRVIrbzdja3dmVWJPYkc4M1E9;NRAiBiAaIQQuGjN/V0Z+WE9EaFxKVmJLYVB3WmpQdldgdVRMZVVbQX9PIiBoS35RdERhW3dfcnVWRmZfUExw;ODMyMjIwQDMyMzAyZTM0MmUzMFVxcmovNFBqSGowY3oyVDBaeVp4dzk2US9VVlpTWDdFR3ZpaDgxQTljNDA9;ODMyMjIxQDMyMzAyZTM0MmUzMFdlak9HTjRYdEFnUVI2OTRVVTZ3cTVpRnVEMTJML3ZrZE02SHJqc3ZwR0E9;Mgo+DSMBMAY9C3t2VVhkQlFadVdJXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxRd0dhUX5ccXdVQGNUVkI=;ODMyMjIzQDMyMzAyZTM0MmUzMEVKVms3UlpXb2IzcjBjM1R5L3kxMjA5YWo3azRIZmIzbmprWUJ6SVpUR2M9;ODMyMjI0QDMyMzAyZTM0MmUzMFNZVWZXRTBKSkF0aW4yUldYdFRZUE9yazEyWjIyUjFjV2ZoYWg4NzZSdUk9;ODMyMjI1QDMyMzAyZTM0MmUzMFVxcmovNFBqSGowY3oyVDBaeVp4dzk2US9VVlpTWDdFR3ZpaDgxQTljNDA9');
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Routes />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
