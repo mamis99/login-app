@@ -197,7 +197,7 @@ const Menu = () => {
 
       <DocumentEditorContainerComponent
         id="container"
-        height='620px'
+        height='100vh'
         ref={(scope) => { editorObj = scope; }}
         enableTrackChanges={true} //habilitar la vista de cambios.
         showRevisions={true} //Muestra los cambios de revisión en el documento 
